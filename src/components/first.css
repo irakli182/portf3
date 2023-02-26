@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu&display=swap');
+
+
+
+/* introduction */
+
+#introdiv {
+    background-image: url('B:\react apps\portf3\src\images\background.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    height: 690px;
+}
+
+#introdiv p {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#IAM {
+    padding-top: 100px;
+    font-size: 6rem;
+}
+
+#WEB {
+    padding-top: 50px;
+    font-size: 4rem;
+}
+
+/* about me */
+
+#aboutdiv {
+    background-color: #001A21;
+    height: 1400px;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+    display: flex;
+}
+
+
+
+.container1 {
+    padding-top: 450px;
+    display: flex;
+}
+
+#z1 {
+    color: #57f77a;
+    font-size: 1.5rem;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    
+}
+
+#z2 {
+    color: #9FD4FE;
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+#z3 {
+    color: #6b91b1;
+    font-size: 3rem;
+    margin-left: 55px;
+}
+
+#z4 {
+    margin-left: 60px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    width: 750px;
+}
+
+
+.zz {
+    color: #9FD4FE;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 50px;
+    font-size: 3rem;
+    z-index: 100;
+}
+
+.imagediv {
+    border-color: cyan;
+    width: 1000px;
+    padding-top: 450px;
+    padding-left: 60px;
+    height: auto;
+
+}
+
+.laptopimg {
+    z-index: 10;
+    width: 800px;
+    margin-top: 100px;
+    
+}
+
+
+/* project link */
+
+.container2 {
+    display: flex;
+    
+}
+
+.projectsdiv {
+    background-color: #213748;
+    height: 800px;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    
+}
+
+
+#x1 {
+    padding-top: 13rem;
+    color: #00C5A6;
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 0;
+    
+}
+
+#x2 {
+    color: #bcfff5;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4rem;
+    margin-left: 0;
+}
+
+.butdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butdiv a {
+    text-decoration: none;
+}
+
+#x3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #637B84;
+    color: black;
+    border-radius: 250px;
+    width: 290px;
+    height: 110px;
+    transition: 0.5s;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 0;
+    
+}
+
+#x3:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: cyan;
+    font-size: 4rem;
+    letter-spacing: 7px;
+    width: 370px;
+    height: 130px;
+    background-color: #7d9ba7;
+    border-width: 6px;
+    text-shadow: 0 0 0px cyan, 0 0 3px cyan, 0 0 5px cyan; 
+    -webkit-text-stroke: 2px black;
+}
+
+
+/* skills */
+
+.skillsdiv {
+    height: 1200px;
+    background-color: #A8C2CC;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding-top: 200px;
+    
+}
+
+.skillsdiv1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.skillsdiv1 ul {
+    font-size: 5rem;
+    list-style: none;
+    z-index: 2;
+    
+}
+
+.skillsdiv1 ul li {
+    font-size: 2.5rem;
+    margin-top: 150px;
+    font-family: 'ubuntu';
+    font-weight: bolder;
+}
+
+#sk1 {
+    margin-left: 5rem;
+    margin-top: 0;
+}
+
+#sk2 {
+    
+}
+
+#sk3 {
+    margin-left: 6rem;
+}
+
+#sk4 {
+    margin-left: 15rem;
+}
+
+#sk5 {
+    margin-top: 0;
+}
+
+
+
+.iceberg {
+    position: absolute;
+    width: 600px;
+    margin-left: auto; 
+    margin-right: auto; 
+    left: 0; 
+    right: 0;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+#c1 {
+    z-index: 10;
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.skill {
+    font-size: 2.5rem;
+    font-family: 'ubuntu', sans-serif;
+
+
+}
+
+
+/* contact */
+
+.contactsdiv {
+    background-color: #213748;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+.contacttext {
+    display: flex;
+    justify-content: center;
+}
+
+.n1 {
+    font-size: 5rem;
+    font-family: 'ubuntu', sans-serif;
+    color: cyan;
+    
+}
+
+.contactscontainer {
+    background-image: url('B:\react apps\portf3\src\images\mountain.png');
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    background-size: cover;
+}
+
+
+.contacts {
+    width: 700px;
+    height: 700px;
+    background: rgba(4, 224, 224, 0.185);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 255, 255, 1);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+
+.m1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'ubuntu', sans-serif;
+    color: rgb(0, 204, 255)
+}
+
+.infodiv {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infodiv p {
+    padding-top: 50px;
+    font-size: 2rem;
+    font-family: 'ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.3s;
+
+
+}
+
+.infodiv p:hover {
+    cursor: pointer;
+    scale: 1.2;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+
+}
+
+
+@media only screen and (max-width: 1690px) {
+
+
+
+    .container1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .laptopimg {
+        padding: 0;
+    }
+
+    .imagediv {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #aboutdiv {
+        flex-direction: column;
+        padding-bottom: 230px;
+    }
+    
+    .container1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+
+    }
+
+    #z1 {
+        text-align: center;
+    }
+
+    #z2 {
+        text-align: center;
+    }
+
+    #z3 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #z4 {
+        text-align: center;
+        width: auto;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .imagediv {
+        margin: 0;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 905px) {
+
+
+
+    
+    
+    #aboutdiv {
+        height: 1000px;
+    }
+
+    .container1 {
+        padding-top: 200px;
+    }
+
+    .imagediv {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .laptopimg {
+        width: 400px;
+    }
+
+    .zz {
+        margin-left: 0;
+    }
+
+    #z1 {
+        margin-left: 0;
+    }
+
+    #z2 {
+        font-size: 3rem;
+    }
+
+    #z3 {
+        font-size: 1.5rem;
+    }
+
+    #z4 {
+        font-size: 1rem;
+    }
+
+    .iceberg {
+        width: 275px;
+    }
+
+
+
+    .skillsdiv {
+        height: 600px;
+        padding-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    #aboutdiv {
+        padding-bottom: 0;
+    }
+
+    .projectsdiv {
+        height: auto;
+        padding-bottom: 200px;
+    }
+
+    #x1 {
+        font-size: 2rem;
+    }
+
+    #x2 {
+        font-size: 1.5rem;
+    }
+
+    #x3 {
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        margin-top: 100px;
+        background-color: #637B84;
+        color: black;
+        border-radius: 250px;
+        width: 200px;
+        height: 70px;
+        transition: 0.5s;
+        -webkit-text-stroke: 2px black;
+        letter-spacing: 2px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #c1 {
+        z-index: 100;
+    }
+    
+
+    .skillsdiv1 ul li {
+        font-size: 1rem;
+        margin-top: 3rem;
+        font-family: 'ubuntu';
+        font-weight: bolder;
+    }
+
+    #sk1 {
+        margin-left: 0;
+    }
+
+    #sk3 {
+        margin-left: 0;
+    }
+
+    #sk4 {
+        margin-left: 0;
+    }
+    
+
+}
+
+@media only screen and (max-width: 905px) {
+    .infodiv p {
+        padding-top: 50px;
+        font-size: 1.6rem;
+        font-family: 'ubuntu', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        transition: 0.3s;
+    
+    }
+}
+
+
+@media only screen and (max-width: 440px) {
+
+
+    #c1 {
+        font-size: 3rem;
+    }
+
+    #IAM {
+        padding-top: 100px;
+        font-size: 4rem;
+    }
+
+    #WEB {
+        padding-top: 50px;
+        font-size: 2.5rem;
+    }
+
+    .laptopimg {
+        width: 250px;
+    }
+
+    .iceberg {
+        width: 200px;
+    }
+
+    .skillsdiv1 {
+        gap: 1rem;
+        backdrop-filter: blur(3px);
+    }
+
+    .infodiv p {
+        padding-top: 50px;
+        font-size: 1.2rem;
+        font-family: 'ubuntu', sans-serif;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        transition: 0.3s;
+    
+    }
+
+    .m1 {
+        font-size: 3rem;
+    }
+}
