@@ -5,8 +5,7 @@
 /* introduction */
 
 #introdiv {
-    background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
+    background-color: black;
     width: 100%;    
     overflow: hidden;
     text-align: center;
@@ -14,6 +13,10 @@
     z-index: 1;
     overflow: hidden;
     position: relative;
+}
+
+.hole {
+    padding-top: 340px;
 }
 
 .backimg {
@@ -38,6 +41,7 @@
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
+    color: white;
 }
 
 #WEB {
@@ -50,6 +54,7 @@
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
+    color: white;
 }
 
 /* about me */
@@ -299,7 +304,6 @@
 }
 
 .contactscontainer {
-    background-image: url('../images/mountain.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -428,7 +432,10 @@
 @media only screen and (max-width: 905px) {
 
 
-
+    .hole {
+        padding-top: 400px;
+        width: 300px;
+    }
     
     
     #aboutdiv {
