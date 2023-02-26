@@ -5,7 +5,7 @@
 /* introduction */
 
 #introdiv {
-    background-image: url('B:/react apps/portf3/src/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     overflow: hidden;
     text-align: center;
@@ -274,7 +274,7 @@
 }
 
 .contactscontainer {
-    background-image: url('B:/react apps/portf3/src/images/mountain.png');
+    background-image: url('../images/mountain.png');
     background-repeat: no-repeat;
     padding-top: 200px;
     display: flex;
