@@ -4,6 +4,8 @@ import mountain from "../images/mountain.png"
 import iceberg from "../images/iceberg.png"
 import solid from "../images/solid.jpg"
 import laptop from "../images/project.jpg"
+import background from "../images/background.jpg"
+
 
 import { FaPhone } from 'react-icons/fa'
 import { SiGit, SiGmail } from 'react-icons/si'
@@ -73,6 +75,7 @@ const First = () => {
     <div>
 
         <div id='introdiv'>
+
 
             <p id='IAM' >I Am Irakli</p>
             <p id='WEB' >Web Developer</p>
